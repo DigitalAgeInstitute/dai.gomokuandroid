@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gomokuForAndroid.v_1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gomoku_1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="gomokuForAndroid.v_1.Splash"
+            android:label="GOMOKU" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/gomoku_2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gomokuForAndroid.v_1.Gomoku_login"
+            android:label="LOGIN" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/login">
+            <intent-filter>
+                <action android:name="android.intent.action.Gomoku_login" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gomokuForAndroid.v_1.Gomoku_register"
+            android:label="REGISTRATION" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/edit">
+        </activity>
+        <activity
+            android:name="gomokuForAndroid.v_1.CustomizedListView"
+            android:label="PLAYERS" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/players">
+        </activity>
+        <activity
+            android:name="gomokuForAndroid.v_1.GomokuAndroidUI"
+            android:label="GAME BOARD" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/gomoku_1">
+        </activity>
+    </application>
+
+</manifest>

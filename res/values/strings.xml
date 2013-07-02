@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gomoku</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="gomoku_fisrtname">First Name</string>
+    <string name="gomoku_lastname">Last Name</string>
+    <string name="gomoku_username">User Name</string>
+    <string name="gomoku_email">Email</string>
+    <string name="gomoku_mobile">Mobile</string>
+    <string name="gomoku_password">Password</string>
+    <string name="gomoku_register">Register</string>
+    <string name="gomoku_login">Log In to Account</string>
+    <string name="gomoku_conf_pass">confirm password</string>
+    <string name="passwords_dont_match">passwords dont match</string>
+
+</resources>
